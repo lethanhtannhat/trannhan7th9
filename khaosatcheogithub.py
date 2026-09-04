@@ -304,7 +304,7 @@ luoitracnghiem(row[64],row[65],row[66],stt=2,colums=5)
 tracnghiem(row[67],3,2)
 submit_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div[2]')))
 driver.execute_script("arguments[0].click();", submit_button)
-if row[68]=="1":
+if row[67]=="1":
     tracnghiem(row[68],2,3)
     hopkiem(row[69],row[70],row[71],row[72],row[73],row[74],row[75],row[76],row[77],stt=3)
     submit_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div[2]')))
